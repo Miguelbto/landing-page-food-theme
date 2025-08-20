@@ -17,15 +17,15 @@
     --color-neutral-1: #1d1d1d;
 }
 
-* {
+* { /*está padronizando todos os elementos, colocando fontes*/
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+}   
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /*define a velocidade da rolagem*/
 }
 
 body {
@@ -33,7 +33,7 @@ body {
 }
 
 section {
-    padding: 28px 8%;
+    padding: 28px 8%; /*define o espaço do conteúdo e a borda*/
 }
 
 .btn-default {
